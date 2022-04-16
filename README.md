@@ -153,7 +153,7 @@ It's better to use an EC2 instance
 3. Build the Docker image 
     
    ```sh
-   sudo docker build -t <image-name> https://github.com/tobias-chc/aws_lambda_container#main:app
+   sudo docker build -t <image-name> https://github.com/tobias-chc/aws_lambda_container.git#main:app
    ``` 
 4. Authenticate the Docker CLI to your Amazon ECR registry. (Correct the parameters)
    ```sh
